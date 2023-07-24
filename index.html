@@ -4,49 +4,36 @@
     <!-- Head where all the link, plugin.  -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=REM:ital,wght@1,600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css" />
     <title>Yvan Gauthier</title>
   </head>
   <body>
-    <!-- Canvas -->
-    <canvas class="orb-canvas"></canvas>
-    <!-- Overlay -->
-    <div class="overlay">
-      <!-- Overlay inner wrapper -->
-      <div class="overlay__inner">
-        <div class="profil-pic">
-          <!-- The profil pic -->
-          <img src="img/PXL_20230721_211813148.MP.jpg" width="200" />
-        </div>
-        <!-- Title of the profile of the card  -->
-        <h2 class="overlay__title">
-          <span class="text-gradient">Hey I'm Yvan Gauthier ...!</span>
-        </h2>
-        <!-- Description -->
-        <p class="overlay__description">
-          <strong>I'm software devloper</strong>, with 4 year of experience in
-          the tech industry, I'm keen on learning new technology as well as
-          working on new exiting project. I'am also a avid avid linux user with
-          about 7 years of experience with the<strong> GNU/Linux OS</strong>
-          on desktop and on server.
-        </p>
-        <!-- Buttons -->
-        <div class="overlay__btns">
-          <button class="overlay__btn overlay__btn--transparent">
-            <a href="#" target="_blank"> Home </a>
-          </button>
-          <button class="overlay__btn overlay__btn--transparent">
-            <a href="#" target="_blank"> My Project </a>
-          </button>
-          <button class="overlay__btn overlay__btn--transparent">
-            <a href="#" target="_blank"> Blog </a>
-          </button>
-          <button class="overlay__btn overlay__btn--transparent">
-            <a href="#" target="_blank"> More about me </a>
-          </button>
-        </div>
+    <header>
+     
+      <div class="menu-option">
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="MyProject.html">My Project</a></li>
+          <li><a href="AboutMe.html">More about me</a></li>
+        </ul>
       </div>
-    </div>
+    </header>
+    <main>
+      <div class="Profil-pic">
+        <img src="img/PXL_20230721_211813148.MP.jpg" width="150" />
+        <h1>Hello and Welcome !</h1>
+        <h2>I' Yvan Gauthier and this is my personal web site ...</h2>
+        <p>
+          Here you'll find what I'm up to when it come to my work.</p>
+          <p>You can also find me here :</p> 
+        </p>
+      </div>
+    </main>
   </body>
   <script src="script.js"></script>
 </html>
